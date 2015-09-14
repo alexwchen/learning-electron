@@ -1,5 +1,5 @@
 {
-  "name": "tutorial",
+  "name": "vr-experiment",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,6 +14,5 @@
     "electron-prebuilt": "^0.32.2"
   },
   "dependencies": {
-    "electron-packager": "^5.1.0"
   }
 }
