@@ -1,0 +1,19 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "asar pack MyApp.app/Contents/Resources/app MyApp.app/Contents/Resources/app.asar",
+    "build": "electron-packager ./ MyApp --platform=darwin --arch=x64 --version=0.28.2 && cp Icon.icns MyApp-darwin-x64/MyApp.app/Contents/Resources/atom.icns"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^0.32.2"
+  },
+  "dependencies": {
+    "electron-packager": "^5.1.0"
+  }
+}
